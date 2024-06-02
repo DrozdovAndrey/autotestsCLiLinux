@@ -1,7 +1,7 @@
 import subprocess
 
 
-def checkout(cmd: str, *args) -> bool:
+def ssh_checkout(cmd: str, *args) -> bool:
     result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, encoding='utf-8')
     if args[0] is None:
         return False
@@ -14,7 +14,7 @@ def checkout(cmd: str, *args) -> bool:
     return True
 
 
-def hash_crc32(cmd: str):
+def getout(cmd: str):
     result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, encoding='utf-8')
     if result.returncode == 0 and result.stdout != '':
         # lst_stdout = result.stdout.split(\n)
