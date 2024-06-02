@@ -4,3 +4,4 @@ folder_ext: /home/ad/folder1
 folder_ext2: /home/ad/folder2
 count: 5
 bs: 1M
+type: -t7z
