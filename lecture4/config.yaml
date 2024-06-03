@@ -1,7 +1,7 @@
-folder_in: /home/ad/tst
-folder_out: /home/ad/out
-folder_ext: /home/ad/folder1
-folder_ext2: /home/ad/folder2
+folder_in: /home/test_user_2/tst
+folder_out: /home/test_user_2/out
+folder_ext: /home/test_user_2/folder1
+folder_ext2: /home/test_user_2/folder2
 count: 5
 bs: 1M
 type: -t7z
